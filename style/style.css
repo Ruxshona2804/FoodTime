@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+:root {
+    --orange: #DC780B;
+    --mutted: #4b4743;
+    --black: #150C01;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 46px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-top: 20px;
+}
+
+.container .navbar__ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.container .navbar__li {
+    list-style: none;
+    font-size: 24;
+}
+
+.container a {
+    color: var(--mutted);
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: var(--orange);
+}
+
+.container .navbar__btn {
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: white;
+    background: var(--orange);
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.head__left {
+    width: 555px;
+    height: 356px;
+}
+
+.head__comment {
+    font-family: Philosopher;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.head__lorem {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: var(--mutted);
+}
+
+.head__btn {
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    background: white;
+    color: var(--orange);
+  box-shadow: 0 0 0 1px rgba(231, 225, 225, 0.459) ;
+  border-radius: 5px;
+  border: none;
+    outline: none;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.head__btn:hover {
+    width: 158px;
+    height: 60px;
+   
+    background: var(--orange);
+    color: white;
+
+
+
+}
+
+
+
+
+
+
+
+.features {
+    width: 80%;
+    height: 357.75px;
+    margin-top: 60px;
+}
+
+.features__text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: var(--orange);
+
+}
+
+.features__box {
+    width: 33%;
+}
+
+.features__context {
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    color: var(--black);
+}
+
+.features__bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features__logo {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: rgb(228, 217, 217);
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.features__bottom--text {
+    font-family: Philosopher;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+
+.features__bottom--lorem {
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--mutted);
+    width: 300px;
+    height: 68px;
+    margin: 10px auto;
+}
+
+
+
+.product {
+    width: 80%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.product__left {
+    width: 555px;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+.product__img {
+    width: 555px;
+    height: 500px;
+
+}
+
+.product__right {
+    width: 488px;
+    height: 314.73px;
+    margin-right: 30px;
+}
+
+.product__text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: var(--orange);
+
+}
+
+.product__h3 {
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    text-align: left;
+    color: var(--black);
+    width: 470px;
+    height: 112px;
+
+}
+
+.product__lorem {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--mutted);
+    width: 487px;
+    height: 76px;
+    margin-top: 20px;
+}
+
+.product__btn {
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: var(--orange);
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+
+
+.menu__text {
+    height: 146px;
+
+
+}
+
+.menu__text-1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: var(--orange);
+}
+
+.menu__text-2 {
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
+}
+
+.menu__text-3 {
+    width: 748px;
+    height: 64px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--mutted);
+    margin: 10px auto;
+}
+
+
+
+.menu__foods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__card {
+    width: 360px;
+    height: 446px;
+    box-shadow: 0 0 0 1px rgba(231, 225, 225, 0.459) ;
+    border-radius: 60px 5px;
+    margin: 10px;
+}
+
+.menu__card--img {
+    width: 360px;
+    height: 264px;
+    border-radius: 60px 0;
+}
+
+.card__span {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card__span span {
+    font-family: Philosopher;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--black);
+
+}
+
+.card__lorem {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--mutted);
+    width: 310px;
+    height: 38px;
+    margin: 10px;
+}
+
+.card__button {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card__button .button__plus {
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: var(--orange);
+    color: var(--black);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.card_star i {
+    width: 16px;
+    height: 16px;
+    color: var(--orange);
+}
+
+.card_star :last-child {
+    color: var(--mutted);
+}
+
+.menu__button--bottom {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn__menu {
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    color: var(--orange);
+    border: none;
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 1px rgba(231, 225, 225, 0.459) ;
+  border-radius: 5px;
+}
+
+.btn__menu:hover {
+    background: var(--orange);
+    color: white;
+}
+
+
+
+
+
+
+.card {
+    width: 80%;
+    height: 476px;
+    margin: 50px auto;
+
+}
+
+.card__text1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: var(--orange);
+
+}
+
+.card__text2 {
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
+
+}
+
+.card__text3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 750px;
+    height: 62px;
+    margin: 20px auto;
+
+
+}
+
+.card__img {
+    display: block;
+    margin: 100px auto 40px;
+}
+
+.card__text4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 506px;
+    height: 59px;
+    margin: 0 auto;
+
+}
+
+.card_i {
+    margin: 20px auto;
+    width: 100px;
+    height: 20px;
+}
+
+.card_i i {
+    width: 16px;
+    height: 16px;
+    color: var(--orange);
+
+}
+
+.card i:last-child {
+    color: var(--mutted);
+}
+
+.card__text5 {
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.card__text6 {
+    font-family: Roboto;
+    font-size: 12px;
+    text-align: center;
+    color: var(--mutted);
+}
+
+
+
+
+
+
+
+
+
+
+.contact {
+    width: 100%;
+    height: 448px;
+    background: rgba(250, 219, 219, 0.492);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__text1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--orange);
+}
+
+.contact__text2 {
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--black);
+    width: 749px;
+    height: 61px;
+}
+
+.contact__email {
+    position: relative;
+    display: inline-block;
+}
+
+.contact__input {
+    width: 750px;
+    height: 75px;
+    border-radius: 10px;
+    background: white;
+    color: var(--mutted);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+    outline: none;
+    margin-top: 70px;
+    padding-left: 50px;
+
+}
+
+.contact__btn {
+    width: 156px;
+    height: 75px;
+    border-radius: 10px;
+    background: var(--orange);
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 70px;
+    left: 79%;
+}
+
+
+footer {
+    background-color: var(--black);
+    width: 100%;
+    height: 429px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot__ul {
+    list-style: none;
+    color: white;
+    margin-top: 200px;
+}
+
+.foot__ul li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.foot__ul .foot__i {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.foot__i i {
+    font-size: 24px;
+    margin: 10px 20px;
+}
